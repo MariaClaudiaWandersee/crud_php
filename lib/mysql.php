@@ -9,14 +9,6 @@ try {
     echo "Erro ao conectar com o banco de dados: " . $e->getMessage();
 }
 
-$select = $pdo->query("SELECT nome, email, senha FROM usuarios");
-$result = $select->fetch(PDO::FETCH_ASSOC);
+
+//$result = $select->fetch(PDO::FETCH_ASSOC);
 //echo $result['nome'].'<br />';
-
-$name       = $result['nome'];
-$email      = $result['email'];
-$password   = $result['senha'];
-
-echo ($name).'<br />';
-echo ($email).'<br />';
-echo ($password).'<br />';

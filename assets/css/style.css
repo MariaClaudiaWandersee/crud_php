@@ -80,3 +80,13 @@ footer>p {
   padding: 14px;
   font-size: 12px;
 }
+
+.btn_add {
+  position: relative;
+  left: 81%;
+  top: 32%;
+}
+
+.form-check {
+  text-align: center;
+}
